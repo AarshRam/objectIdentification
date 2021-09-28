@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+  }
+  
+  h1 {
+    width: fit-content;
+    font-weight: bolder;
+    color: aliceblue;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(42, 207, 36), 0 0 20px rgb(24, 233, 42), 0 0 30px #12f738, 0 0 40px #1ec708, 0 0 50px #36df14, 0 0 60px #5fc010, 0 0 70px #2bb408;
+    }
+  
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #1597be, 0 0 40px #0dc9e2, 0 0 50px #14bbd1, 0 0 60px #12deec, 0 0 70px #0bc6d3, 0 0 80px #1fd0dd;
+    }
+  }
+  
+  a {
+    font-size: 30px;
+    color: royalblue;
+    font-weight: 900;
+  }
+
+  canvas{
+    border-color: lightcoral;
+    border-width: 7px;
+    box-shadow: 10px 10px 10px lemonchiffon;
+    border-radius: 10px;
+    border-style: double dashed dotted solid;
+    margin-top : 70px;
+}
